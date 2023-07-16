@@ -10,6 +10,10 @@ https://abtzpro.github.io
 ## AI Content Transparency Notice
 Contains some AI generated content
 
+## Special Notice
+- As research is done and builds and tests are performed and built out, this repo will be updated.
+- Thus this repo will be updated frequently and with lots of pertinent data to the subject at hand, the creation of QCs (Quantum Computers).
+
 ## Simplified schematic
 ```
 Quantum Computer:
