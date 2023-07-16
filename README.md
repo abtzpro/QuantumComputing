@@ -255,9 +255,7 @@ H|1⟩ = 1/√2 * [1  1] * [0] = 1/√2 * [0]
 The qubit is now in the state 1/√2 * |0⟩ - 1/√2 * |1⟩. In this state, a measurement of the qubit will yield 0 with a probability of 1/2, and 1 with a probability of 1/2.
 
 ![Quantum Math Mockup](https://github.com/abtzpro/QuantumComputing/blob/main/IMG_0396.jpeg)
-
-
-## Research Continued 
+ 
 
 ## Title: A New Approach for Quantum Computer Design: 
 
