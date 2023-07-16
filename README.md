@@ -2,6 +2,73 @@
 
 ## Crafting a Quantum Computer: A Comprehensive Journey
 
+## Simplified schematic
+```
+Quantum Computer:
+    |
+    |--- Quantum Processor Layer
+    |       |
+    |       |--- Qubit Array
+    |       |       |
+    |       |       |-- Qubit 1
+    |       |       |    |-- Quantum States (|0>, |1>)
+    |       |       |    |-- Control Lines
+    |       |       |    |-- Coupling (Entanglement)
+    |       |       |
+    |       |       |-- Qubit 2
+    |       |       |    |-- Quantum States (|0>, |1>)
+    |       |       |    |-- Control Lines
+    |       |       |    |-- Coupling (Entanglement)
+    |       |       |
+    |       |       |-- ...
+    |       |       |-- Qubit N
+    |       |            |-- Quantum States (|0>, |1>)
+    |       |            |-- Control Lines
+    |       |            |-- Coupling (Entanglement)
+    |       |
+    |       |--- Quantum Gates
+    |       |       |
+    |       |       |-- Single Qubit Gates (Pauli-X, Pauli-Y, Pauli-Z, Hadamard)
+    |       |       |-- Two Qubit Gates (CNOT, SWAP)
+    |       |       |-- Multi Qubit Gates (Toffoli)
+    |       |
+    |       |--- Quantum Interconnects
+    |
+    |--- Cryogenic System
+    |       |
+    |       |-- Dilution Refrigerator
+    |       |-- Electromagnetic Shielding
+    |       |-- Vibration Isolation
+    |
+    |--- Classical Control System
+    |       |
+    |       |-- Pulse Generators
+    |       |-- Feedback Control
+    |       |-- Microwave Generators
+    |       |-- Laser Systems (if applicable)
+    |       |-- FPGA for Pulse Sequence Control
+    |
+    |--- Error Correction Layer
+    |       |
+    |       |-- Quantum Error Correction Codes
+    |       |-- Decoding and Correcting Algorithms
+    |
+    |--- Quantum Programming Layer
+    |       |
+    |       |-- Quantum Compiler
+    |       |-- Quantum Runtime
+    |
+    |--- Quantum Middleware
+    |       |
+    |       |-- Resource Manager
+    |       |-- Scheduler
+    |
+    |--- User Interface Layer
+            |
+            |-- Quantum Algorithm Development Tools
+            |-- Quantum Software Libraries (Qiskit, Cirq, etc.)
+            |-- CLI / GUI / Web Interface
+```
 **Step 1:** Selection of Qubit Kind
 
 **1.1** Investigate Various Qubit Forms: The first step involves studying and grasping the various qubit forms, their theoretical underpinnings, benefits, disadvantages, and the technological hurdles each type entails. This will include understanding superconducting qubits, trapped ions, photonic qubits, and topological qubits, among others.
