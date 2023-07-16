@@ -297,7 +297,7 @@ Our study employs Qiskit, an open-source quantum computing framework for simulat
 
 ## Results
 
-The results of our experiments demonstrate the feasibility and efficacy of our approach. We observed that the implementation of our model exhibited faster convergence in comparison to traditional methods. The learning process was seen to maintain a level of stability that allowed for consistent progress. Furthermore, the efficiency of the resulting quantum algorithms proved competitive, outstripping certain pre-existing techniques. The specific outcomes, bolstered by a plethora of statistics, charts, and comparison tables, are presented and analyzed.
+The results of our experiments demonstrate the feasibility and efficacy of our approach. We observed that the implementation of our model exhibited faster convergence in comparison to traditional methods. The learning process was seen to maintain a level of stability that allowed for consistent progress. Furthermore, the efficiency of the resulting quantum algorithms proved competitive, outstripping certain pre-existing techniques. 
 
 ## Discussion
 
