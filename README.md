@@ -199,6 +199,8 @@ Photonic qubits use particles of light (photons) to carry quantum information. T
 
 Building a practical, large-scale quantum computer requires overcoming many scientific and engineering challenges. These include creating high-quality qubits with long coherence times, developing efficient error correction techniques, scaling up the system to a large number of qubits, and improving the precision of quantum operations. Despite these challenges, progress is being made, and the field of quantum computing continues to advance at a rapid pace.
 
+![Quantum Mechanics Mockup](https://github.com/abtzpro/QuantumComputing/blob/main/IMG_0395.jpeg)
+
 ## What the math??
 
 Quantum computing isn’t based on one singular mathematical equation, but rather a set of mathematical principles and operations that are performed on quantum bits, or qubits. These principles form the theoretical basis of quantum computing.
