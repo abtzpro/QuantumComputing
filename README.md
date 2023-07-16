@@ -7,6 +7,9 @@
 Adam Rivers
 https://abtzpro.github.io
 
+## AI Content Transparency Notice
+Contains some AI generated content
+
 ## Simplified schematic
 ```
 Quantum Computer:
