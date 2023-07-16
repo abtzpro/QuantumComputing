@@ -115,3 +115,24 @@ Topological qubits are still mostly theoretical. They exploit certain states of 
 Photonic qubits use particles of light (photons) to carry quantum information. They have the advantage of being able to operate at room temperature, and they can be manipulated with high precision using existing optical technology. However, creating a large-scale photonic quantum computer is a significant challenge due to difficulties in generating entanglement and ensuring sufficient interaction between photons.
 
 Building a practical, large-scale quantum computer requires overcoming many scientific and engineering challenges. These include creating high-quality qubits with long coherence times, developing efficient error correction techniques, scaling up the system to a large number of qubits, and improving the precision of quantum operations. Despite these challenges, progress is being made, and the field of quantum computing continues to advance at a rapid pace.
+
+## What the math??
+
+Quantum computing isn’t based on one singular mathematical equation, but rather a set of mathematical principles and operations that are performed on quantum bits, or qubits. These principles form the theoretical basis of quantum computing.
+
+To start with, each qubit is represented by a state vector in a two-dimensional complex Hilbert space. This state vector is often represented as:
+```
+|ψ⟩ = α|0⟩ + β|1⟩
+```
+Where α and β are complex numbers, and |0⟩ and |1⟩ are the basis states of the qubit. The absolute squares of the magnitudes of α and β give the probabilities of measuring the system in the corresponding states. In other words, |α|^2 is the probability that a measurement of the qubit will yield 0, and |β|^2 is the probability that the measurement will yield 1. These probabilities must add up to 1: 
+```
+|α|^2 + |β|^2 = 1
+```
+Quantum gates, which are the basic operations of a quantum computer, are represented by unitary matrices. For example, a commonly used quantum gate is the Pauli-X gate, which flips the state of a qubit. It’s represented by the following 2x2 matrix:
+```
+X = [0 1]
+[1 0]
+```
+When a gate is applied to a qubit, it changes the state of the qubit according to a specific rule defined by the gate. The new state of the qubit is found by multiplying the gate matrix with the state vector of the qubit.
+
+A quantum circuit, which is a sequence of quantum gates, performs a computation on a quantum computer. To find the overall effect of a quantum circuit, you multiply the matrices of the individual gates. The final state of the qubits is found by applying this combined transformation to the initial state of the qubits.
