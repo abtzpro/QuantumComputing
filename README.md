@@ -136,3 +136,35 @@ X = [0 1]
 When a gate is applied to a qubit, it changes the state of the qubit according to a specific rule defined by the gate. The new state of the qubit is found by multiplying the gate matrix with the state vector of the qubit.
 
 A quantum circuit, which is a sequence of quantum gates, performs a computation on a quantum computer. To find the overall effect of a quantum circuit, you multiply the matrices of the individual gates. The final state of the qubits is found by applying this combined transformation to the initial state of the qubits.
+
+In quantum computing, we often start with a qubit in the state |0⟩, which we can represent as a vector:
+```
+|0⟩ = [1]
+[0]
+```
+Suppose we apply the Pauli-X gate to this qubit, which flips it to the state |1⟩. The Pauli-X gate is represented by the matrix:
+```
+X = [0 1]
+[1 0]
+```
+The action of the gate on the qubit is represented by multiplying the gate matrix with the state vector of the qubit:
+```
+X|0⟩ = [0 1] * [1] = [0]
+[1 0]   [0]   [1]
+```
+So the state of the qubit after applying the Pauli-X gate is:
+```
+|1⟩ = [0]
+[1]
+```
+Now, let’s apply the Hadamard gate, which puts the qubit in a superposition of states |0⟩ and |1⟩. The Hadamard gate is represented by the matrix:
+```
+H = 1/√2 * [1  1]
+[1 -1]
+```
+So we calculate:
+```
+H|1⟩ = 1/√2 * [1  1] * [0] = 1/√2 * [0]
+[1 -1]   [1]           [-1]
+```
+The qubit is now in the state 1/√2 * |0⟩ - 1/√2 * |1⟩. In this state, a measurement of the qubit will yield 0 with a probability of 1/2, and 1 with a probability of 1/2.
