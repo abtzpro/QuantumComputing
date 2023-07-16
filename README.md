@@ -159,6 +159,8 @@ Quantum Computer:
 
 **12.2** Maintenance: Like any computer, a quantum computer will require regular maintenance. This could include recalibrating the control system, replacing faulty components, or updating the quantum software.
 
+![Theoretical future QC Mockup](https://github.com/abtzpro/QuantumComputing/blob/main/IMG_0393.jpeg)
+
 ## Quantum Physics and Quantum Computing
 
 Quantum physics is the theoretical foundation of quantum computing. It describes the strange, often counterintuitive behavior of particles on the smallest scales. The following key principles are particularly important for quantum computing:
