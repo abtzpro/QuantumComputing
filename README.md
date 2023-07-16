@@ -2,6 +2,8 @@
 
 ## Crafting a Quantum Computer: A Comprehensive Journey
 
+![Theoretical QC In the Future](https://github.com/abtzpro/QuantumComputing/blob/main/IMG_0393.jpeg)
+
 *Authored By*
 
 Adam Rivers
