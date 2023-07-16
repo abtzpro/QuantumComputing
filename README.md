@@ -2,6 +2,10 @@
 
 ## Crafting a Quantum Computer: A Comprehensive Journey
 
+*Authored By*
+Adam Rivers
+https://abtzpro.github.io
+
 ## Simplified schematic
 ```
 Quantum Computer:
